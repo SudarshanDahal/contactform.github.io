@@ -1,0 +1,70 @@
+:root{
+    font-family: 'Poppins',sans-serif;
+    background-color: #f7f7fc;
+    color: #2b2b2a;
+    min-width: 100vh;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#hello{
+    margin: 75px 0 0 100px;
+    
+}
+input, textarea{
+    padding: 13px;
+    border-radius: 20px;
+    border: 1px solid #E3E3E3;
+    display: block;
+    margin: 15px;
+    width: 35%;
+}
+@media only screen and (max-width: 760px) {
+    input,textarea{
+            width: 50%;
+
+    }
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+p{
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+button{
+    display: block;
+    margin: 15px;
+    padding: 12px 18px 12px 18px;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #F1981A;
+    border: none;
+    color: #f7f7fc;
+    width: 35%;
+    cursor: pointer;
+}
+
+#image{
+    float: right;
+    overflow: hidden;
+    margin-right: 100px;
+    margin-top: 15px;
+    }
+    iframe{
+        width: 100%;
+        margin-top: 50px;
+    }
